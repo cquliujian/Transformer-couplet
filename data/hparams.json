@@ -1,0 +1,23 @@
+{
+  "max_in_length": 34,
+  "mode": "test",
+  "batch_size": 64,
+  "eval_batch": 16,
+  "buffer_size": 2048,
+  "vocab_size": 9132,
+  "embedding_size": 512,
+  "d_model": 512,
+  "dropout_rate": 0.3,
+  "encode_layer": 6,
+  "decode_layer": 6,
+  "num_heads": 8,
+  "d_ff": 2048,
+  "lr": 0.0001,
+  "warmup_steps": 4000,
+  "model_dir": "./output",
+  "save_steps": 1000,
+  "max_save": 5,
+  "model_mode": "predict",
+  "train_steps": 1e15,
+  "predict_ckpt": "./output/model.ckpt-920000"
+}
